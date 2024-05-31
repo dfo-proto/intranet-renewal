@@ -53,35 +53,67 @@
     <gcds-text margin-top="450">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus sem, vehicula a nisi a, laoreet faucibus leo. Nunc bibendum purus in diam condimentum sodales. Nam a commodo sapien, lobortis sodales arcu. Nulla porttitor, velit ut mollis mollis, lacus lacus semper ligula, mollis consectetur nibh est id est.</gcds-text>
     <gcds-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus sem, vehicula a nisi a, laoreet faucibus leo. Nunc bibendum purus in diam condimentum sodales. Nam a commodo sapien, lobortis sodales arcu. Nulla porttitor, velit ut mollis mollis, lacus lacus semper ligula, mollis consectetur nibh est id est.</gcds-text>     
 
+    <!-- cards start -->
+    <div class="my-500">
+      <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr" gap="400">
+        <gcds-card
+          card-title="Data table"
+          type="action"
+          title-element="h3"
+          description="A way to organize and display large amounts of data in rows and columns."
+          role="listitem"
+        >
+          <div slot="footer">
+            <p class="text-secondary">
+              <small>
+                <em>Other names:  table, data grid.</em>
+              </small>
+            </p>
+          </div>
+        </gcds-card>
+        <gcds-card
+          card-title="Image"
+          type="action"
+          title-element="h3"
+          description="An element for displaying optimized responsive visual content."
+          role="listitem"
+        >
+          <div slot="footer">
+            <p class="text-secondary">
+              <small>
+                <em>Other names:  picture, responsive image, figure, photo.</em>
+              </small>
+            </p>
+          </div>
+        </gcds-card>
+        <gcds-card
+          card-title="Tag"
+          type="action"
+          title-element="h3"
+          description="A component used for items that need to be labeled, categorized, or organized using keywords that describe them."
+          role="listitem"
+        >
+          <div slot="footer">
+            <p class="text-secondary">
+              <small>
+                <em>Other names:  label, badge, pill.</em>
+              </small>
+            </p>
+          </div>
+        </gcds-card>
+      </gcds-grid>
+    </div>
+    <!-- cards ends -->
 
-      <gcds-grid columns="repeat(auto-fit, minmax(100px, 310px))" justify-content="start" >
-      <gcds-card
-  card-title="Card title link"
-  href="#"
-  tag="Tag"
-  description="Description or supporting text relating to the headline. Longer text will be truncated with ..."
->
-</gcds-card>
-
-<gcds-card
-  card-title="Card title link"
-  href="#"
-  tag="Tag"
-  description="Description or supporting text relating to the headline. Longer text will be truncated with ..."
->
-</gcds-card>
-
-<gcds-card
-  card-title="Card title link"
-  href="#"
-  tag="Tag"
-  description="Description or supporting text relating to the headline. Longer text will be truncated with ..."
->
-</gcds-card>
-
-
-</gcds-grid>
+   
 
   </gcds-container>
+  <gcds-footer
+  display="full"
+  lang="en"
+  contextual-heading="DFO-CCG Intranet"
+  contextual-links='{ "Contact us": "#", "Report an issue": "#", "About us": "#" }'
+  sub-links='{ "Social media": "#", "About Fisheries and Oceans": "#", "Terms and conditions": "https://www.canada.ca/en/transparency/terms.html", "Privacy": "/en/privacy-notice" }'
+></gcds-footer>
 </body>
 </html>
